@@ -46,7 +46,7 @@ def advance():
     body = request.get_json()
 
     payload = unserialize(body["payload"][2:])
-    app.logger.info("[APP] Unserialized payload: " + payload)
+    app.logger.info("[APP] Unserialized payload: " + str(payload))
 
     transform = payload["transform"]
     message = payload["message"]

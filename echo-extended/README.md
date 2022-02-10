@@ -87,7 +87,7 @@ $ curl http://localhost:4000/graphql -H 'Content-Type: application/json' -d '{ "
 The response should be something like this:
 
 ```shell
-{"data":{"GetNotice":[{"session_id":"default_rollups_id","epoch_index":"0","input_index":"0","notice_index":"0","payload":"7b227472616e73666f726d223a20227570706572222c20226d657373616765223a202268656c6c6f2066726f6d206563686f2d657874656e646564227d"}]}}
+{"data":{"GetNotice":[{"session_id":"default_rollups_id","epoch_index":"0","input_index":"0","notice_index":"0","payload":"48454c4c4f2046524f4d204543484f2d455854454e444544"}]}}
 ```
 You can also run those commands in the playground graphql host at "http://localhost:4000/graphql", it is easier to understand and manipulate the structures defined in (https://github.com/cartesi/rollups/blob/main/src/reader/src/graphql/typeDefs/typeDefs.graphql). For example, the GetNotice query can be run in the localhost as shown bellow
 
